@@ -12,7 +12,8 @@
             http://www.springframework.org/schema/context
             http://www.springframework.org/schema/context/spring-context.xsd" default-autowire="byName">
 
-    <bean id="helloService" class="com.zsl.service.provider.HelloServiceImpl"></bean>
+    <!--<bean id="helloService" class="com.zsl.service.provider.HelloServiceImpl"></bean>-->
+    <context:component-scan base-package="com.zsl.service" />
 
     <import resource="dubbo-provider.xml"/>
 </beans>

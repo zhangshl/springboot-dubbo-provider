@@ -10,6 +10,6 @@ public class HelloServiceImpl implements HelloService {
 //        if (i % 3 == 0) {
 //            throw new RuntimeException("ex");
 //        }
-        return "Hello111 " + name + "!";
+        return "Hello " + name + "!";
     }
 }
