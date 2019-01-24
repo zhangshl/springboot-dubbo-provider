@@ -1,5 +1,16 @@
-# Created by .ignore support plugin (hsz.mobi)
-/target/
-.idea/*.xml
-*.iml/
-/bin
+*~
+.classpath
+.project
+.settings/
+lib/
+logs/
+target/
+bin/
+.DS_Store
+.metadata
+*.log
+*.log.*
+.idea/
+*.iml
+.#*
+.svn
